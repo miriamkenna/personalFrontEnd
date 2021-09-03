@@ -30,7 +30,7 @@ textarea {
 }
 
 a {
-	color: #FF0;
+	color: #920ddf;
   text-decoration: none;
 }
 
@@ -79,6 +79,13 @@ p {
   width: 100%;
 }
 
+.cv {
+  /* Masonry bricks or child elements */
+  display: inline-block;
+  margin: 2;
+  width: 175%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -92,7 +99,7 @@ img {
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  max-width: 600px;
+  max-width: 1600px;
 }
 
 .tm-block-wider {
@@ -124,8 +131,8 @@ img {
   padding: 140px 95px 0;
 }
 
-.tm-hero-text1 {
-  padding: 140px 140px 140px;
+.intro{
+font-style: italic;
 }
 
 .tm-block-pad {
@@ -197,7 +204,7 @@ img {
 
 .tm-btn-secondary {
   color: white;
-  background-color: #c46c6a;
+  background-color: #e67b9f;
 }
 
 .tm-btn-secondary:hover {
