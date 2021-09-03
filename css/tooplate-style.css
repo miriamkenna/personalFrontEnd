@@ -8,7 +8,7 @@ COLORS
 
 Primary Dark:       #996666
 Primary Light:      #cc9999
-Secondary:          #9999cc
+Secondary:          #c46c6a
 Dark Background:    #333333
 Dark Gray Text:     #666666
 Light Gray Text:    #999999
@@ -187,7 +187,7 @@ img {
 }
 
 .tm-btn-primary {
-  color: #9999cc;
+  color: #c46c6a;
   background-color: #ffffff;
 }
 
@@ -197,12 +197,12 @@ img {
 
 .tm-btn-secondary {
   color: white;
-  background-color: #9999cc;
+  background-color: #c46c6a;
 }
 
 .tm-btn-secondary:hover {
   color: #ffffff;
-  background-color: #5b5bb2;
+  background-color: #c46c6a;
 }
 
 .tm-text-white {
@@ -222,7 +222,7 @@ img {
 }
 
 .tm-bg-secondary {
-  background-color: #9999cc;
+  background-color: #c46c6a;
 }
 
 .tm-mt {
@@ -258,7 +258,7 @@ textarea {
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #958ec0;
+  border: 1px solid #c46c6a;
   padding: 18px 20px;
   font-size: 1em;
 }
