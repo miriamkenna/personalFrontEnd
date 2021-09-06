@@ -52,7 +52,7 @@ h2 {
 
 p {
   line-height: 2;
-  margin: 0;
+  margin: 20px;
 }
 
 .tm-container {
@@ -87,10 +87,8 @@ p {
 }
 
 .menu {
-  background-color: #c46c6a
-  border-left: 2px;
-  padding:0;
-  margin:0 auto;
+  color: #c46c6a;
+  margin-left:0 auto;
   display: inline-block;
   width: 200%;
 }
@@ -284,7 +282,7 @@ textarea {
 }
 
 .tm-form-section {
-  margin-top: -5px;
+  margin-top: 25px;
 }
 
 .tm-form-section-tag {
