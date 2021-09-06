@@ -167,10 +167,28 @@ font-style: italic;
   margin-bottom: 27px;
 }
 
+.tm-block-brand2 {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 .tm-block-brand-inner {
   position: relative;
   right: 50px;
   padding: 70px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tm-block-brand-inner2 {
+  position: relative;
+  left: 80px;
+  padding: 20px 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
