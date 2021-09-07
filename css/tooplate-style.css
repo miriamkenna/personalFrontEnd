@@ -348,29 +348,12 @@ textarea {
 }
 
 .tm-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  max-width: 600px;
-  margin-right: 0;
-  margin-left: auto;
-}
-
-.tm-footer,
-.tm-footer a {
-  color: #cbcbcb;
-}
-
-.tm-footer a:hover {
-  color: #996666;
-}
-
-.tm-footer p {
+  background-color: #996666;
+  color: #ffffff;
   font-size: 16px;
+  width: 200%;
 }
+
 
 @media (max-width: 1232px) {
   body {
