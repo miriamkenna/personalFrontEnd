@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/tooplate-style.css">
 
 </head>
@@ -40,15 +41,23 @@
             <p class="tm-hero-text"> 
                 <div class="item tm-bg-white tm-block tm-form-section" data-desktop-seq-no="9" data-mobile-seq-no="7">
                     <div class="tm-form-container tm-block-pad tm-pb-0">
-                        <form action="https://formspree.io/f/mqkwwgba"" class="tm-contact-form" method="POST">
-                            <div class="tm-form-group">
-                                <input type="email" id="contact_email" name="_replyto" class="form-control" placeholder="Email" required/>
+                        <form action="https://formspree.io/f/mqkwwgba" class="tm-contact-form" method="POST">
+                            <label class="form-label">Username</label>
+                            <div class="input-group flex-nowrap tm-form-group">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
                             </div>
-                            <div class="tm-form-group">
-                                <textarea rows="5" id="contact_message" name="message" class="form-control" placeholder="Messaggio" required></textarea>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" id="contact_email" aria-describedby="emailHelp" name="_replyto" required>
+                                <div id="emailHelp" class="form-text">Non condivideremo la tua mail con nessuno.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Messaggio</label>
+                                <textarea class="form-control" id="contact_message" rows="3" name="message" required></textarea>
                             </div>
                             <div class="tm-text-right">
-                                <button type="submit" class="tm-btn tm-btn-secondary tm-btn-pad-big">Invia</button>
+                                <button type="submit" class="btn tm-btn tm-btn-secondary tm-btn-pad-big ">Invia</button>
                             </div>
                         </form>
                     </div>
@@ -79,6 +88,8 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://kit.fontawwesome.com/92af127d4c.js" crossorigin="anonymous"></script>
     <script src="js/newscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
 
 </body>
 </html>
