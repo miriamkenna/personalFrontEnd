@@ -1,0 +1,21 @@
+Miriam Fatima Kenna 
+-link github: https://github.com/miriamkenna/personalFrontEnd.git
+
+*********************************************************************************************
+
+Project: creation of a personal portfolio for Identity and Access Management Academy.
+
+*********************************************************************************************
+Credits:
+            Demo images: UNSPLASH (unsplash.com)
+
+            Icons: Font Awesome (fontawesome.it)
+
+            Template:  Tooplate HTML Templates (tooplate.com)
+                       Codepen (codepen.com)
+
+*********************************************************************************************
+
+
+
+            
