@@ -11,8 +11,10 @@ Credits:
 
             Icons: Font Awesome (fontawesome.it)
 
-            Template:  Tooplate HTML Templates (tooplate.com)
-                       Codepen (codepen.com)
+            Other:  Tooplate HTML Templates (tooplate.com)
+                    Codepen (codepen.com)
+                    JQuery (jquery.com)
+                    Formspree (formspree.io)
 
 *********************************************************************************************
 
