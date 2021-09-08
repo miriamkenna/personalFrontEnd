@@ -1,4 +1,4 @@
-<script>
+
 
         let callAdjustLayout;
         let currentLayout = "desktop",
@@ -92,4 +92,3 @@
 
             adjustLayout();
         })
-    </script>
